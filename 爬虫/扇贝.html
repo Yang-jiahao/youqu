@@ -1,0 +1,847 @@
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="robots" content="index,follow" />
+        <meta name="copyright" content="Copyright 2009-2019. www.shanbay.com . All Rights Reserved." />
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        
+    <meta name="keywords" content="单词表，词汇表，分类单词，分类词汇"/>
+    <meta name="description" content="扇贝网词串" />
+    <title>词串：  Python必背词汇-UNIT1 </title>
+
+
+        <!-- Le styles -->
+        <link rel="icon" type="image/png" href="https://static.baydn.com/static/img/shanbay_favicon.png" />
+
+        <link rel="stylesheet" type="text/css" href="https://static.baydn.com/static/css/shanbay/jquery.noty.css" />
+        <link rel="stylesheet" type="text/css" href="https://static.baydn.com/static/css/shanbay/noty_theme_default.css" />
+        <link rel="stylesheet" type="text/css" href="https://static.baydn.com/static/css/datepicker.css" />
+        
+            <link href="https://static.baydn.com/static/css/shanbay_base.420b3ce07d64f492c9a74fd3c9c2f66d.css" rel="stylesheet" type="text/css" />
+            <link href="https://static.baydn.com/static/css/listen_hints.eb3d12cc65b05a5037a2ef1bfaa2b35f.css" rel="stylesheet" type="text/css" />
+        
+        
+    <link href="https://static.baydn.com/static/css/wordlist.e63aabe26a75b74953ce049c5316d640.css" rel="stylesheet" type="text/css" />
+    <link href="https://static.baydn.com/static/css/new_wordbook.da7456e54b1ae7baa3dd25ed16389831.css" rel="stylesheet" type="text/css" />
+
+        <!--[if (lt IE 9) & (!IEMobile)]>
+        <link href="https://static.baydn.com/static/css/shanbay-ie.93c2a39c861c3648a2ba039c3e478dbb.css" rel="stylesheet" type="text/css" />
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="https://static.baydn.com/static/font/shanbay-fontawesome/shanbay-fontawesome-v3.css"/>
+        <script src="/static/scripts/shanbay-hire.62316bba21b1d72c6bcc4d834e5c882f.js"> </script>
+    </head>
+
+  <body data-spy="scroll" data-target=".subnav" data-offset="50" class = "">
+      <div id="hints-bundle-modal">
+      </div>
+  
+  <!-- Navbar
+    ================================================== -->
+    <div id="main-navbar" class="navbar navbar-fixed-top ">
+    <div class="navbar-inner" style='filter: none'>
+      <div class="container">
+          
+          <div class="page-head">
+              <div id="page-head-right">
+                
+                <div id="main-login" class="pull-right">
+                        <a id="" class="twi-btn-left" name="login" href="/web/account/login/"><span>登录</span></a>
+                        <a id="" class="twi-btn-right" name="register" href="/web/account/register"><span>注册</span></a>
+                </div>
+                
+              </div>
+          </div>
+          
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="/"><img src="https://static.baydn.com/static/img/logo_v4.png" /></a>
+        <div class="nav-collapse">
+            
+            <ul class="nav" style="z-index: 1040">
+                
+                
+                <li class="dropdown main-nav home ">
+                    <a class="main-menu" href="/">首页</a>
+                </li>
+
+                <li class="dropdown main-nav 
+    active
+">
+                    <a href="https://web.shanbay.com/wordsweb/"
+                      class="main-menu">
+                        单词
+                    </a>
+                </li>
+
+                <li class="dropdown main-nav  ">
+                    <a href="https://web.shanbay.com/codetime/home/intro/python-basic?utm_source=web_codetime&utm_medium=shanbay_nav"
+                      class="main-menu">
+                        编程
+                    </a>
+                </li>
+
+                <li class="dropdown main-nav  ">
+                    <a class="main-menu" href="/listen/">
+                        听力
+                    </a>
+                </li>
+
+                <li class="dropdown main-nav  ">
+                    <a class="main-menu" href="/speak/">
+                        口语
+                    </a>
+                </li>
+
+                <li id="nav-news" class="dropdown main-nav  ">
+                    <a class="main-menu" href="/news/articles">
+                        短文
+                    </a>
+                </li>
+
+                <li id="nav-books" class="dropdown main-nav  ">
+                    <a class="main-menu" href="https://web.shanbay.com/reading/web-reading">
+                        读书
+                    </a>
+                </li>
+
+                <li class="dropdown main-nav  ">
+                    <a class="main-menu"
+                        href="/sentence/review/" >
+                        炼句
+                    </a>
+                </li>
+
+                <li class="dropdown main-nav  ">
+                    <a class="main-menu"
+                        href="/academy/" >
+                        课程
+                    </a>
+                </li>
+
+                <li class="dropdown main-nav  ">
+                    <a class="main-menu" href="/community/">
+                        社区
+                    </a>
+                </li>
+
+            </ul>
+            
+            <form class="navbar-search pull-right" action="">
+                <div class="controls">
+                    <div class="input-prepend">
+                        <input type="text" class="search-input span2" placeholder="查词" />
+                        <img src="https://static.baydn.com/static/img/icon-remove.png" class="icon-remove hide" />
+                        <span class="add-on search-submited"><i class="icon-search"></i></span>
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+     </div>
+   </div>
+
+   <div class="sub-menu 
+    active
+">
+       <ul class="container">
+           <li class=""><a id="bdc-new-review-link" href="/bdc/review/">单词学习</a></li>
+           <li class=""><a href="/market/">扩展包</a></li>
+           <li class="
+    active
+"><a href="/wordbook/books/mine/">单词书</a></li>
+           <!-- <li class=""><a href="/bdc/learnings/library/#today">我的词库</a></li>
+           <li><a href="/bdc/client/vocabprogress">单词进度</a></li>
+           <li class=""><a href="/user/setting/bdc/">单词设置</a></li> -->
+       </ul>
+   </div>
+
+   <div class="sub-menu ">
+       <ul class="container">
+           <li class=""><a href="/sentence/review/">炼句学习</a></li>
+           <li class=""><a href="/sentence/book/">课程</a></li>
+           <li class=""><a href="/sentence/setting/">炼句设置</a></li>
+       </ul>
+   </div>
+
+   <div id="menu-news" class="sub-menu ">
+       <ul class="container">
+           <li class="">
+               <a href="/news/articles">短文首页</a>
+           </li>
+           <li class="">
+               <a href="/news/user/articles">收藏的短文</a>
+           </li>
+           <li class="">
+               <a href="/read/plan/#news">短文计划</a>
+           </li>
+           
+       </ul>
+   </div>
+
+   <div id="menu-books" class="sub-menu ">
+       <ul class="container">
+           <li class="">
+               <a href="/read/books/">读书首页</a>
+           </li>
+           <li class="">
+               <a href="/read/plan/">短文计划</a>
+           </li>
+           
+       </ul>
+   </div>
+
+
+   <div class="sub-menu ">
+       <ul class="container">
+           <li class=""><a href="/listen/">听力学习</a></li>
+           <li class=""><a href="/listen/books/my/">听力课程</a></li>
+           <li class=""><a href="/listen/plan/">听力计划</a></li>
+           <li class=""><a class="buy-listen-hints" href="/listen/#buy-hints">购买提示</a></li>
+           <li class=""><a href="/listen/setting/">听力设置</a></li>
+       </ul>
+   </div>
+
+   <div class="sub-menu ">
+       <ul class="container">
+           <li class=""><a href="/community/">论坛</a></li>
+           <li class=""><a href="/team/team/">小组</a></li>
+           <li class=""><a href="/footprints/">精选</a></li>
+       </ul>
+   </div>
+
+  
+  
+
+ </div>
+
+
+
+
+
+  <!--
+  <div class="gradient-bar">
+      &nbsp;
+  </div>
+  -->
+
+
+
+  <div class="container main-body ">
+      
+    <div class="row">
+        <div class="span8">
+            
+    <div class="row">
+        <div class="span8">
+            <div class="well">
+                <div class="row">
+                    <div class="span6">
+                        <h4>Python必背词汇-UNIT1
+                            (<span id="wordlist-num-vocab">46</span>
+                            单词)
+                        </h4>
+                        <p>1649914@八月 28, 2015</p>
+                    </div>
+                    <div class="span1" id="wordlist-operation-area" style="float: right">
+                    
+                    
+                    </div>
+                </div>
+                <div class="wordlist-description-container">
+                     这是MIT(麻省理工)Python教学的视频中的一些单词，其实对于编程来说，很多词汇都是通用的，同样也可以用于JAVA，C#，Perl等等其他的语言。 词汇我做了优化，除去其他不需要的意思，可以减轻背单词的压力，只留在计算机方面的意思。所以小伙伴们相信很快就可以背完。
+                </div>
+                <div class="wordbook-contains-this-wordlist">
+                    
+    <p>
+        该单元属于单词书：
+        <a href="/wordbook/110521">MIT（麻省理工）Python计算机编程必背词汇</a>
+        <a class="btn btn-success btn-mini" href="/wordbook/110521">查看</a>
+    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span8">
+            
+                <table class="table table-bordered table-striped">
+                    <tbody>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>computational</strong></td>
+                                <td class="span10"> adj. 计算的，电脑的</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>mode</strong></td>
+                                <td class="span10">n. 模式</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>primitive</strong></td>
+                                <td class="span10">n. 原始、基元，是后续操作的基础</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>gigabyte</strong></td>
+                                <td class="span10">n. 千兆字节，是数据单位</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>storage</strong></td>
+                                <td class="span10">n. 储存体,  仓库</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>retrieve</strong></td>
+                                <td class="span10">n. 检索,恢复</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>algorithm</strong></td>
+                                <td class="span10"> n. 算法</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>accomplish</strong></td>
+                                <td class="span10"> vt. 完成</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>scheme</strong></td>
+                                <td class="span10">n. 方案, 计划,
+v. 设计, 体系, 结构,</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>compute</strong></td>
+                                <td class="span10"> vt. 计算</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>code</strong></td>
+                                <td class="span10">n. 码,密码
+vt. 把...编码</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>halt</strong></td>
+                                <td class="span10">v 停止</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>computation</strong></td>
+                                <td class="span10">n. 计算，计算方法，计算结果</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>knowledge</strong></td>
+                                <td class="span10"> n. 知识,了解</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>declarative</strong></td>
+                                <td class="span10">adj. 说明的, 陈述的
+declarative knowledge 陈述性知识</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>imperative</strong></td>
+                                <td class="span10">adj. 命令式的,互动的
+imperative knowledge 互动性知识</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>recipe</strong></td>
+                                <td class="span10">n. 挂起，暂停</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>evaluate</strong></td>
+                                <td class="span10"> vt. 评估,评价</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>square root</strong></td>
+                                <td class="span10">平方根 the square root of a number x
+x的平方根</td>
+                            </tr>
+                        
+                            <tr class="row">
+                                <td class="span2"><strong>deduce</strong></td>
+                                <td class="span10">vt. 演绎,推断</td>
+                            </tr>
+                        
+                    </tbody>
+                </table>
+                <div id="pagination"></div>
+            
+        </div>
+    </div>
+
+        </div>
+
+        <div class="span4">
+            
+            <div class="page-header">
+                <h3>搜索单词书</h3>
+            </div>
+            <form class='search-wordbooks-form' method='GET' action=/wordbook/search/>
+                <div class="input-prepend">
+                    <select class='search-wordbooks-select' name='search-category'>
+                        <option value='all' >全部</option>
+                        
+                            <option value="10"  >考研</option>
+                        
+                            <option value="20"  >托福</option>
+                        
+                            <option value="30"  >雅思</option>
+                        
+                            <option value="40"  >GRE</option>
+                        
+                            <option value="51"  >四级</option>
+                        
+                            <option value="52"  >六级</option>
+                        
+                            <option value="55"  >BEC</option>
+                        
+                            <option value="60"  >英专</option>
+                        
+                            <option value="70"  >托业</option>
+                        
+                            <option value="80"  >GMAT</option>
+                        
+                            <option value="90"  >SAT</option>
+                        
+                            <option value="91"  >ACT</option>
+                        
+                            <option value="101"  >高中</option>
+                        
+                            <option value="102"  >初中</option>
+                        
+                            <option value="103"  >小学</option>
+                        
+                            <option value="104"  >医学</option>
+                        
+                            <option value="105"  >计算机</option>
+                        
+                            <option value="109"  >文学作品</option>
+                        
+                            <option value="110"  >英语辅导</option>
+                        
+                            <option value="120"  >公共英语</option>
+                        
+                            <option value="130"  >公开课</option>
+                        
+                            <option value="140"  >影视剧</option>
+                        
+                            <option value="150"  >其他</option>
+                        
+                    </select>
+                    <input class="search-wordbooks-input" type="text" name="target" placeholder="单词单词书" value="" autocomplete="on">
+                    <button class="add-on search-wordbooks-submited">
+                        <i class="icon-search"></i>
+                    </button>
+                </div>
+            </form>
+            <div class="page-header">
+                <h3>单词书分类</h3>
+            </div>
+            <span class="hide" id="current-category-id"></span>
+            
+                <ul class="nav nav-tabs nav-stacked" id="wordbook-category-list">
+                    
+                        <li data="10"><a href="/wordbook/category/10/">考研</a></li>
+                    
+                        <li data="20"><a href="/wordbook/category/20/">托福</a></li>
+                    
+                        <li data="30"><a href="/wordbook/category/30/">雅思</a></li>
+                    
+                        <li data="40"><a href="/wordbook/category/40/">GRE</a></li>
+                    
+                        <li data="51"><a href="/wordbook/category/51/">四级</a></li>
+                    
+                        <li data="52"><a href="/wordbook/category/52/">六级</a></li>
+                    
+                        <li data="55"><a href="/wordbook/category/55/">BEC</a></li>
+                    
+                        <li data="60"><a href="/wordbook/category/60/">英专</a></li>
+                    
+                        <li data="70"><a href="/wordbook/category/70/">托业</a></li>
+                    
+                        <li data="80"><a href="/wordbook/category/80/">GMAT</a></li>
+                    
+                        <li data="90"><a href="/wordbook/category/90/">SAT</a></li>
+                    
+                        <li data="91"><a href="/wordbook/category/91/">ACT</a></li>
+                    
+                        <li data="101"><a href="/wordbook/category/101/">高中</a></li>
+                    
+                        <li data="102"><a href="/wordbook/category/102/">初中</a></li>
+                    
+                        <li data="103"><a href="/wordbook/category/103/">小学</a></li>
+                    
+                        <li data="104"><a href="/wordbook/category/104/">医学</a></li>
+                    
+                        <li data="105"><a href="/wordbook/category/105/">计算机</a></li>
+                    
+                        <li data="109"><a href="/wordbook/category/109/">文学作品</a></li>
+                    
+                        <li data="110"><a href="/wordbook/category/110/">英语辅导</a></li>
+                    
+                        <li data="120"><a href="/wordbook/category/120/">公共英语</a></li>
+                    
+                        <li data="130"><a href="/wordbook/category/130/">公开课</a></li>
+                    
+                        <li data="140"><a href="/wordbook/category/140/">影视剧</a></li>
+                    
+                        <li data="150"><a href="/wordbook/category/150/">其他</a></li>
+                    
+                </ul>
+            
+            <ul class="nav nav-tabs nav-stacked" id="wordbook-extra-options">
+                <li><a href="/wordbook/books/">我的单词书</a></li>
+                
+                
+            </ul>
+
+            
+        </div>
+    </div>
+
+  </div><!-- /container -->
+    
+    
+
+    
+    <div id="bloxyModal" class="modal fade hide">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">网络错误!</h4>
+                </div>
+                <div class="modal-body">
+                    <p>您的电脑上安装了某些视频广告拦截软件，这会导致无法提交学习数据。</p>
+                    <p> 您可以退出相应软件后刷新网页继续学习。</p>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div> <!-- .modal -->
+
+    <div class="modal hide shortcuts-modal">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal"></button>
+        <h3>快捷键</h3>
+      </div>
+      <div class="modal-body">
+            <table>
+                <tbody>
+                    <tr>
+                        <th>下个单词</th>
+                        <td>大于号&gt;或右方向键或D键</td>
+                    </tr>
+                    <tr>
+                        <th>提交答案</th>
+                        <td>回车键</td>
+                    </tr>
+                    <tr>
+                        <th>选择相应选项</th>
+                        <td>数字键0到4，0为忘记</td>
+                    </tr>
+                    <tr>
+                        <th>拼写单词</th>
+                        <td>S 键</td>
+                    </tr>
+                    <tr>
+                        <th>单词发音</th>
+                        <td>P 键</td>
+                    </tr>
+                    <tr>
+                        <th>显示词根详情（需购买智慧词根应用）</th>
+                        <td>R 键</td>
+                    </tr>
+                    <tr>
+                        <th>显示派生词信息（需购买派生词应用）</th>
+                        <td>F 键</td>
+                    </tr>
+                    <tr>
+                        <th>认识</th>
+                        <td>数字键 1</td>
+                    </tr>
+                    <tr>
+                        <th>不认识</th>
+                        <td>数字键 2</td>
+                    </tr>
+                    <tr>
+                        <th>忘记</th>
+                        <td>数字键 0</td>
+                    </tr>
+                    <tr>
+                        <th>太简单</th>
+                        <td>数字键 9</td>
+                    </tr>
+                    <tr>
+                        <th>关闭对话框</th>
+                        <td>Esc 键</td>
+                    </tr>
+                </tbody>
+            </table>
+
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="btn" data-dismiss="modal">关闭</a>
+      </div>
+    </div>
+
+
+    <!-- Search -->
+    <script id="search-result-title-tmpl"  type="text/x-jquery-tmpl">
+        <div class="word-container">
+            <span class="word">${content}</span>
+            {{if learning_id}}
+                <a href="/review/learning/${learning_id}" style="float: right; margin-top: 12px;" target="_blank">
+            {{else}}
+                <a href="/bdc/vocabulary/${id}" style="float: right;" target="_blank">
+            {{/if}}
+                详细</a>
+            <div>
+                <span>us:</span>
+                {{if pronunciations.us}}<small>/${pronunciations.us}/</small>{{/if}}
+                {{if audio_addresses.us.length !== 0 && audio_addresses.us[0]}}
+                <span class="speaker" data-target="us"><i class="icon-volume-off"></i></span>
+                {{/if}}
+                {{if pronunciations.us.length+pronunciations.uk.length > 16 }}
+                </div>
+                <div>
+                {{/if}}
+                <span>uk:</span>
+                {{if pronunciations.uk}}<small>/${pronunciations.uk}/</small>{{/if}}
+                {{if audio_addresses.uk.length !== 0 && audio_addresses.uk[0]}}
+                <span class="speaker" data-target="uk"><i class="icon-volume-off"></i></span>
+                {{/if}}
+            </div>
+        </div>
+    </script>
+    <script id="search_tmpl"  type="text/x-jquery-tmpl">
+        <div class="definition">
+            <div class="simple-definition" style="margin-bottom: 20px; font-size: 16px;">
+                {{each(i, v) definitions.cn}}
+                    {{if i>9}}
+                    <div class="hide">
+                    {{else}}
+                    <div>
+                    {{/if}}
+                        <span>{{html v.pos}}</span>
+                        <span>&nbsp;{{html v.defn}}</span>
+                    </div>
+                {{/each}}
+                {{if definitions.cn.length>10}}
+                    <div class="view-more"><a href="javascript:;">查看更多</a></div>
+                {{/if}}
+            </div>
+            <div class="add">
+                {{if learning_id}}
+                    <div class="progress pull-left" style="border-radius: 0; width: 80%; margin-top: 2px; margin-bottom: 20px;">
+                        {{each(i, v) li}}
+                            {{if v==1}}
+                            <div class="bar bar-success bar-reviewed" style="width: ${width}"></div>
+                            {{else}}
+                            <div class="bar bar-left" style="width: ${width}"></div>
+                            {{/if}}
+                        {{/each}}
+                    </div>
+                    <a class="forget pull-right" href="javascript:;" style="font-size: 12px;">我忘了</a>
+                    <p class="forget pull-left hide" style="font-size: 14px;">我们会安排重新复习这个单词</p>
+                {{else}}
+                    <p style="text-align: right;"><a id="add-word" class="btn btn-success" data-id="${object_id}" href="javascript:;">添加</a></p>
+                    <p style="text-align: right;"><span class="loading hide">&nbsp; &nbsp; 正在添加</span></p>
+                {{/if}}
+            </div>
+            <div class="word-added hide">
+                <p style="font-size: 14px; text-align: right">
+                    成功添加进你的词库 <a href="" target="_blank">查看</a>
+                </p>
+            </div>
+        </div>
+    </script>
+
+
+    <script id="no_search_tmpl"  type="text/x-jquery-tmpl">
+        <p>目前只支持搜索英语单词</p>
+    </script>
+    <script id="search_fail_tmpl"  type="text/x-jquery-tmpl">
+        <div>
+            <p class="title">
+                未找到单词
+            </p>
+            <!--
+                <div class="body"><a class="btn btn-success" href="/bdc/search/fail/${word}/" target="_blank">手动添加</a></div>
+            -->
+        </div>
+    </script>
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>
+        var TEXTS = {
+            'Cancel' : "取消",
+            'Close' : "关闭",
+            'revoke' : "撤销",
+            'submitting' : "正在提交中...",
+            'update_success' : "更新成功",
+            'loading' : "正在加载数据 ...",
+            'example_saved' : "例句已经收藏",
+            'note_saved' : "此条笔记已被收藏",
+            'no_flash' : '你的浏览器没有安装Adobe Flash Player，无法播放声音 <a href="http://get.adobe.com/flashplayer/" target="_blank">Go to Download it</a>',
+            'review_error' : "答案不正确，请再次尝试。"
+        };
+    </script>
+
+    <script>
+
+    var whiteList = ['www.shanbay.com', 'www.17bdc.com'];
+    var host = window.location.host;
+    var agent = window.navigator.userAgent.toLowerCase()
+    // redirect domains except www.shanbay.com or www.17bdc.com
+    if (whiteList.indexOf(host) == -1 && agent.search('micromessenger') == -1) {
+        var href = window.location.href;
+        var host = window.location.host;
+        window.location.href = href.replace(host, 'www.shanbay.com');
+    }
+    // redirect http to https
+    if (window.location.protocol !== "https:" && host == 'www.shanbay.com') {
+        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    }
+
+</script>
+
+
+    <!--[if (lt IE 8) & (!IEMobile)]>
+        <script src="https://static.baydn.com/static/font/shanbay-fontawesome/shanbay-fontawesome-ie7-v3.js"></script>
+    <![endif]-->
+    <script src="https://static.baydn.com/static/scripts/jquery-1.7.2.min.js?_=1522116382"> </script>
+    <script src="https://static.baydn.com/static/scripts/jquery.tmpl.min.js"></script>
+    <script src="https://static.baydn.com/static/scripts/jquery.cookie.js"></script>
+    <script src="https://static.baydn.com/static/scripts/plugins/soundmanagerv297a_20150601/soundmanager2-jsmin.js"> </script>
+    <script src="https://static.baydn.com/static/scripts/plugins/raven/raven.min.js"></script>
+    <script type="text/javascript">
+    function load_soundManager(){
+        var is_safari = false;
+        var chrome_version = undefined;
+        var ua = navigator.userAgent.toLowerCase();
+        if (ua.indexOf('safari') != -1) {
+            if (ua.indexOf('chrome') > -1) {
+                // Other browsers
+                is_safari = false;
+                var reg = /chrome\/(\d+)\./;
+                match = ua.match(reg);
+                if (match && match.length == 2) {
+                    chrome_version = parseInt(match[1]);
+                }
+            } else {
+                // Safari
+                is_safari = true;
+            }
+        }
+        soundManager.setup({
+            debugMode: false,
+            onready: function() {
+            }
+        });
+        soundManager.debugFlash = false;
+
+        if (is_safari || (chrome_version != undefined && chrome_version >= 48)) {
+            soundManager.preferFlash = false;
+        } else {
+            soundManager.preferFlash = true;
+            soundManager.flashVersion = 9;
+        }
+        soundManager.useHTML5Audio = true;
+        soundManager.url = 'https://static.baydn.com/static/scripts/plugins/soundmanagerv297a_20150601/';
+        soundManager.onready(function() {
+              soundManager.createSound({
+                id:"shanbay_audio",
+                url: "http://media.shanbay.com/sounds/huh.mp3"
+              });
+              soundManager.createSound({
+                id:"sentence_audio",
+                url: "http://media.shanbay.com/sounds/huh.mp3"
+              });
+              listen_audio = soundManager.createSound({
+                id:"listen_audio",
+                url: "http://media.shanbay.com/sounds/huh.mp3"
+              });
+        });
+    }
+
+    function sentry_config() {
+        Raven.config('http://d13462113cc14ccbae74e11225443fe3@sentry.17bdc.com/60', {
+        }).install();
+        Raven.setUser({id: $.cookie('userid')})
+    }
+
+    
+        load_soundManager();
+    
+    
+        //sentry_config();
+    
+    </script>
+    <script src="https://static.baydn.com/static/scripts/jquery.noty.js"> </script>
+
+    <script src="https://static.baydn.com/static/scripts/jquery.color.js"></script>
+    <script src="https://static.baydn.com/baydn/public/vendor/aliyun-oss-sdk-v4.4.1.min.js"></script>
+    <script type="text/javascript" src="https://static.baydn.com/static/scripts/shanbay-base.100b882f0c4b0fca6e45c3967c7aef4b.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://static.baydn.com/static/scripts/shanbay-all.15b20f28c91a805dfd568055ca3c5c74.js" charset="utf-8"></script>
+    <!--<script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>-->
+    
+    
+    
+    <script type="text/javascript" src="https://static.baydn.com/static/scripts/wordlist.5009f223d6456237ef753da0c5ab9ee7.js" charset="utf-8"></script>
+    
+    <script src="https://static.baydn.com/static/scripts/jquery-bootstrap-pagination.js"></script>
+    <script type="text/javascript">
+        var pages = Math.ceil(46 / 20)
+        $('#pagination').pagination({
+        total_pages:pages,
+        current_page:1,
+        callback:function(event, page){
+            if (page < 1 || page > pages)
+                return;
+            var host = window.location.host;
+            var pathname = window.location.pathname;
+            window.location.href = [window.location.protocol,'//',host,pathname,'?page=',page].join('');
+        }
+        })
+    </script>
+
+
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-24491297-1']);
+      _gaq.push(['_setDomainName', '.shanbay.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        if (window.location.href.indexOf('shanbay.com') == -1)
+            return;
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = "https://static.baydn.com/static/"+"scripts/ga.js";
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+</script>
+
+</body></html>

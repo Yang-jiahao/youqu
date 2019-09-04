@@ -1,0 +1,52 @@
+computational, adj. 计算的，电脑的
+mode,n. 模式
+primitive,n. 原始、基元，是后续操作的基础
+gigabyte,n. 千兆字节，是数据单位
+storage,n. 储存体,  仓库
+retrieve,n. 检索,恢复
+algorithm, n. 算法
+accomplish, vt. 完成
+scheme,n. 方案, 计划,
+v. 设计, 体系, 结构,
+compute, vt. 计算
+code,n. 码,密码
+vt. 把...编码
+halt,v 停止
+computation,n. 计算，计算方法，计算结果
+knowledge, n. 知识,了解
+declarative,adj. 说明的, 陈述的
+declarative knowledge 陈述性知识
+imperative,adj. 命令式的,互动的
+imperative knowledge 互动性知识
+recipe,n. 挂起，暂停
+evaluate, vt. 评估,评价
+square root,平方根 the square root of a number x
+x的平方根
+deduce,vt. 演绎,推断
+capture,vt. 采集,描绘,制作
+fix,vt. &vi.修理,安装
+calculator, n. 计算器
+decode, v. 解码, 译解
+[计算机] 译码
+enigma,n. 谜
+manipulate,v. [计算机] 操作
+instruction,n. 指令,说明
+set,n.集合 predefined set 预设集合
+arithmetic,n. 算术，运算
+store,n. (在计算机里)存贮；记忆
+test,n.vt. 测试
+execute,vt. [计算机] 执行
+source,n. 来源 source code 源代码
+sequence,n. 序列, 一系列, 顺序
+architecture,n.体系结构
+abstract,n.简化，抽象
+computable, adj. 可计算的
+mechanism,n. 机制
+syntax,n. 语法  （规范代码的结构，成分和顺序上正确）
+static,adj. 静态的
+ambiguous,adj. 歧义的
+unpredictable, adj. 不可预知的
+intend,v. 打算 （打算使之成为。。。）
+crash,n 崩溃，停止运行
+algorithmic, adj.[计]算法的,规则系统的
+process,n.过程，进程，步骤
