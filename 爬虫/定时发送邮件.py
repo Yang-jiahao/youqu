@@ -21,9 +21,9 @@ def reques_html(url,headers):
         return article_str, name
 
 def send_email(name,content):
-    sendman='1307128051@qq.com'
-    password_sqm='sbeeobhozxasiibb'
-    receiver='13906445972@163.com'
+    sendman='@qq.com'
+    password_sqm='s*******ibb'
+    receiver='@163.com'
     subject=name
     msg=MIMEText(content,'plain','utf-8')
     msg['Subject']=subject
