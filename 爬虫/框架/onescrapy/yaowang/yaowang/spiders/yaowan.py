@@ -33,7 +33,6 @@ class YaowanSpider(scrapy.Spider):
         yaowan=response.meta['data']
         print(yaowan)
         intree=etree.HTML(response.body.decode('gbk'))
-
         brand=intree.xpath('//div[@class="goods_intro"]//tr[1]/td/text()')[0]
         sizes=intree.xpath('//div[@class="goods_intro"]//tr[2]/td[2]/text()')[0]
         weights=intree.xpath('//div[@class="goods_intro"]//tr[3]/td[1]/text()')[0]

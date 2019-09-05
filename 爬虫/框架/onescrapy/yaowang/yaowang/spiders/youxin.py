@@ -9,7 +9,7 @@ class YouxinSpider(scrapy.Spider):
     name = 'youxin'
     allowed_domains = ['xin.com']
     start_urls = []
-    city_list = open('E:\爬虫\框架\onescrapy\yaowang\yaowang\ershouche.json','r', encoding='utf-8')
+    city_list = open('E:\youqu\爬虫\框架\onescrapy\yaowang\yaowang\ershouche.json','r', encoding='utf-8')
     citys = city_list.read()
     citys_dic=json.loads(citys)
     emlist=citys_dic['data']['city_all']
