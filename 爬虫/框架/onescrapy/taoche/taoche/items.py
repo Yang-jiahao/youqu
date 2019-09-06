@@ -26,3 +26,12 @@ class TaocheItem(scrapy.Item):
 
     # ip = scrapy.Field()
 
+    city_name = scrapy.Field()  # 城市名称
+
+
+    # 详情页
+    detail_url = scrapy.Field()  # 详情url
+    # pic = scrapy.Field()  # 图片
+    displace = scrapy.Field()  # 排量
+    source_id = scrapy.Field()  # 车源号
+

@@ -8,9 +8,9 @@ import pymongo
 
 class TaochePipeline(object):
     def __init__(self):
-        self.client=pymongo.MongoClient('localhost',27017)
-        self.db=self.client['fenbupc']
-        self.collection=self.db['fenbu']
+        self.client=pymongo.MongoClient('10.10.21.151',27017)
+        self.db=self.client['123']
+        self.collection=self.db['car']
     def process_item(self, item, spider):
         self.collection.insert(dict(item))
         return item

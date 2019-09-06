@@ -33,16 +33,20 @@ class TaocheyaSpider(RedisSpider):
     def parse_detil(self,response):
         item = TaocheItem()
         tree=etree.HTML(response.body.decode('utf-8'))
-        title=tree.xpath('//h1[@class="title"]/text()')
-        price=tree.xpath('//strong[@class="price-this"/span[position()=1]//text()')
-        all_price=tree.xpath('//strong[@class="price-this"]/span[position()=2]/text()')
-        reg_date=tree.xpath('//div[@class="summary-attrs"]/dl[position()=1]/dd/text()')
-        mile=tree.xpath('//div[@class="summary-attrs"]/dl[position()=2]/dd/text()')
+        title=''.join(tree.xpath('//h1[@class="title"]/text()')).strip()
+        price=tree.xpath('//strong[@class="price-this"]//text()')[1]
+        all_price=tree.xpath('//div[@class="summary-price-wrap"]/span[@class="quankuan"]/text()')[0]
+        reg_date=tree.xpath('//div[@class="summary-attrs"]/dl[1]/dd/text()')[0]
+        mile=tree.xpath('//div[@class="summary-attrs"]/dl[2]/dd/text()')[0]
         item['title']=title
         item['price']=price
         item['all_price']=all_price
         item['reg_date']=reg_date
         item['mile']=mile
+        item['city_name']='none'
+        item['detail_url']='none'
+        item['displace']='none'
+        item['source_id']='none'
         print(title)
         print(price)
         print(all_price)
